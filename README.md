@@ -1,5 +1,7 @@
 # fresh-dark-syntax theme
 
-A short description of your theme.
+A dark atom syntax theme for web developpment.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+PHP
+
+![PHP](https://cloud.githubusercontent.com/assets/6443649/17069673/3311b4a8-5058-11e6-88a8-295f9266de22.png)
