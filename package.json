@@ -1,13 +1,21 @@
 {
   "name": "fresh-dark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A dark and fresh syntax theme for web development",
   "keywords": [
+    "fresh",
+    "dark",
     "syntax",
-    "theme"
+    "theme",
+    "web",
+    "php",
+    "html",
+    "javascript",
+    "sass"
   ],
-  "repository": "https://github.com/atom/fresh-dark-syntax",
+  "repository": "https://github.com/frian/dark-fresh-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
