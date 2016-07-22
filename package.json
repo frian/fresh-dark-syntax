@@ -15,7 +15,7 @@
     "javascript",
     "sass"
   ],
-  "repository": "https://github.com/frian/dark-fresh-syntax",
+  "repository": "https://github.com/frian/fresh-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
