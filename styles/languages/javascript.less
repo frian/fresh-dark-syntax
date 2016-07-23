@@ -1,0 +1,44 @@
+.js {
+    &.source {
+        color : @fd-yellow;
+    }
+    &.definition {
+        &.punctuation {
+            &.parameters {
+            color : @fd-orange;
+          }
+        }
+    }
+    &.entity {
+      &.name {
+        &.function {
+      color: @lime;
+    }
+    }
+    }
+
+    &.support {
+      &.class {
+        color: @fd-yellow;
+      }
+    }
+
+    &.method-call {
+      &.arguments {
+        color : @light-cyan;
+      }
+    }
+
+
+    &.constant.language {
+      color : @fd-cyan;
+    }
+
+    &.function.parameter.variable {
+        color : @fd-yellow;
+    }
+
+    &.storage.type.var {
+      color : @dark-yellow;
+    }
+}
