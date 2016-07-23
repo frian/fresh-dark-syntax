@@ -1,10 +1,19 @@
+.entity {
+    &.name.tag {
+      color : @fd-yellow;
+    }
+    &.other.attribute-name {
+      color : @fd-light-green;
+    }
+}
+
 
 .keyword {
   &.punctuation.definition {
     color: @fd-red;
   }
   &.operator.logical {
-    color : @fd-dark-orange;
+    color : @fd-cyan;
   }
   &.control {
     color : @fd-orange;
@@ -13,12 +22,24 @@
 
 .storage.type.function {
   &.php, &.js {
-    color : @fd-orange;
+    color : @fd-medium-green;
   }
 }
 
 .punctuation {
   &.terminator {
     color : @fd-darker-orange;
+  }
+  &.definition.tag {
+    color : @fd-yellow;
+  }
+}
+
+.meta {
+  &.brace {
+    color : @fd-dark-yellow;
+  }
+  &.tag.inline, &.tag.any.html {
+    color : white;
   }
 }
