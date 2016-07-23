@@ -3,10 +3,22 @@
   &.punctuation.definition {
     color: @fd-red;
   }
+  &.operator.logical {
+    color : @fd-dark-orange;
+  }
+  &.control {
+    color : @fd-orange;
+  }
 }
 
 .storage.type.function {
   &.php, &.js {
     color : @fd-orange;
+  }
+}
+
+.punctuation {
+  &.terminator {
+    color : @fd-darker-orange;
   }
 }

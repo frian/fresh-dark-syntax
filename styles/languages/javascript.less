@@ -12,7 +12,7 @@
     &.entity {
       &.name {
         &.function {
-      color: @lime;
+      color: @fd-light-green;
     }
     }
     }
@@ -25,13 +25,19 @@
 
     &.method-call {
       &.arguments {
-        color : @light-cyan;
+        color : @fd-cyan;
       }
     }
 
 
-    &.constant.language {
-      color : @fd-cyan;
+    &.constant {
+        &.language {
+            color : @fd-light-cyan;
+        }
+        &.character.escape {
+          color : red;
+        }
+
     }
 
     &.function.parameter.variable {
@@ -39,6 +45,14 @@
     }
 
     &.storage.type.var {
-      color : @dark-yellow;
+      color : @fd-dark-yellow;
+    }
+
+    &.support.constant.dom {
+      color: @fd-light-green;
+    }
+
+    &.variable.other.property {
+      color: @fd-light-green;
     }
 }
