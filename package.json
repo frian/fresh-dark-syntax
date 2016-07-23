@@ -12,8 +12,12 @@
     "web",
     "php",
     "html",
+    "twig",
     "javascript",
-    "sass"
+    "css",
+    "less",
+    "scss",
+    "symfony"
   ],
   "repository": "https://github.com/frian/fresh-dark-syntax",
   "license": "MIT",
