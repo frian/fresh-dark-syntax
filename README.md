@@ -4,16 +4,16 @@ A dark atom syntax theme for web developpment.
 
 PHP
 
-![php](https://cloud.githubusercontent.com/assets/6443649/17078512/9fc30cee-50f5-11e6-869e-11aca089c005.png)
-
-css, less, scss
-
-![css, less, scss](https://cloud.githubusercontent.com/assets/6443649/17074525/793987e8-507c-11e6-91ff-0ec827f186c5.png)
+![php](https://cloud.githubusercontent.com/assets/6443649/17086803/a46716d0-51fb-11e6-98f6-5fc67c670e2e.png)
 
 JavaScript
 
-![javasript](https://cloud.githubusercontent.com/assets/6443649/17078524/0cb42b44-50f6-11e6-83a1-40a2c89322da.png)
+![js](https://cloud.githubusercontent.com/assets/6443649/17086813/dc7c6c5a-51fb-11e6-88e3-4b37401836f6.png)
+
+css, less, scss
+
+![css, less, scss](https://cloud.githubusercontent.com/assets/6443649/17086817/edcbfc8c-51fb-11e6-9a57-1d71cf7e7169.png)
 
 Twig
 
-![twig](https://cloud.githubusercontent.com/assets/6443649/17078546/60f6d67a-50f6-11e6-9c6a-ea3c0229d6a6.png)
+![twig](https://cloud.githubusercontent.com/assets/6443649/17086820/047ecd1a-51fc-11e6-9b0a-b2fb6b166828.png)
