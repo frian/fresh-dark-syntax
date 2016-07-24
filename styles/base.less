@@ -55,28 +55,8 @@ atom-text-editor .search-results .marker.current-result .region {
     color: @fd-comment-green;
 }
 
-.keyword {
-    color: @fd-orange;
-    &.control {
-        color: @fd-orange;
-    }
-    &.operator {
-        color: @syntax-text-color;
-    }
-    &.other.special-method {
-        color: @blue;
-    }
-    &.other.unit {
-        color: @fd-dark-yellow;
-    }
-}
-
-.storage {
-    color: @fd-red;
-}
-
 .constant {
-    color: @orange;
+    color: @fd-orange;
     &.character.escape {
         color: red;
     }
@@ -91,19 +71,55 @@ atom-text-editor .search-results .marker.current-result .region {
     }
 }
 
-.variable {
-    color: @fd-yellow;
-    &.interpolation {
-        color: darken(@red, 10%);
+.entity {
+    &.name.function {
+        color: @fd-yellow;
     }
-    &.parameter.function {
-        color: @syntax-text-color;
+    &.name.type {
+        color: @fd-dark-yellow;
+        text-decoration: underline;
+    }
+    &.name.class,
+    &.name.type.class {
+        color: @light-orange;
+    }
+    &.name.section {
+        color: @blue;
+    }
+    &.name.tag {
+        color: @fd-orange;
+        // text-decoration: underline;
+    }
+    &.other.inherited-class {
+        color: @green;
+    }
+    &.other.attribute-name {
+        color: @fd-yellow;
+        &.id {
+            color: @fd-orange;
+        }
     }
 }
-.invalid.illegal {
-    background-color: @red;
-    color: @syntax-background-color;
+
+.keyword {
+    color: @fd-orange;
+    &.control {
+        color: @fd-orange;
+    }
+    &.operator {
+        color: @fd-cyan;
+    }
+    &.operator.assignment {
+        color: @fd-white;
+    }
+    &.other.special-method {
+        color: @blue;
+    }
+    &.other.unit {
+        color: @fd-dark-yellow;
+    }
 }
+
 .string {
     color: @fd-white;
     &.regexp {
@@ -116,6 +132,33 @@ atom-text-editor .search-results .marker.current-result .region {
         color: @red;
     }
 }
+
+.storage {
+    color: @fd-cyan;
+}
+
+.support {
+    &.class {
+        color: @fd-light-orange;
+    }
+    &.function {
+        color: @fd-light-cyan;
+        &.any-method {
+            color: @blue;
+        }
+    }
+}
+
+.variable {
+    color: @fd-yellow;
+    &.interpolation {
+        color: darken(@red, 10%);
+    }
+    &.parameter.function {
+        color: @syntax-text-color;
+    }
+}
+
 .punctuation {
     color: @fd-darker-orange;
     &.definition {
@@ -147,46 +190,7 @@ atom-text-editor .search-results .marker.current-result .region {
         color: darken(@red, 10%);
     }
 }
-.support {
-    &.class {
-        color: @fd-light-orange;
-    }
-    &.function {
-        color: @fd-light-cyan;
-        &.any-method {
-            color: @blue;
-        }
-    }
-}
-.entity {
-    &.name.function {
-        color: @fd-yellow;
-    }
-    &.name.type {
-        color: @fd-dark-yellow;
-        text-decoration: underline;
-    }
-    &.name.class,
-    &.name.type.class {
-        color: @light-orange;
-    }
-    &.name.section {
-        color: @blue;
-    }
-    &.name.tag {
-        color: @fd-orange;
-        // text-decoration: underline;
-    }
-    &.other.inherited-class {
-        color: @green;
-    }
-    &.other.attribute-name {
-        color: @fd-yellow;
-        &.id {
-            color: @fd-orange;
-        }
-    }
-}
+
 .meta {
     &.class {
         color: @light-orange;
@@ -205,9 +209,7 @@ atom-text-editor .search-results .marker.current-result .region {
         color: @syntax-text-color;
     }
 }
-.none {
-    color: @syntax-text-color;
-}
+
 .markup {
     &.bold {
         color: @orange;
@@ -239,6 +241,16 @@ atom-text-editor .search-results .marker.current-result .region {
         color: @green;
     }
 }
+
+.invalid.illegal {
+    background-color: @red;
+    color: @syntax-background-color;
+}
+
+.none {
+    color: @syntax-text-color;
+}
+
 .source.gfm .markup {
     -webkit-font-smoothing: auto;
     &.heading {
