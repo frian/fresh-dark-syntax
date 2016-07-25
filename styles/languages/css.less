@@ -8,11 +8,52 @@
     &.font-name {
         color: @fd-white;
     }
+    &.media.constant {
+        color : @fd-green;
+    }
+    &.meta.selector {
+        color : @fd-pink;
+        .punctuation.definition.keyword {
+            color: @fd-pink;
+        }
+    }
 }
 
-.at-rule.include {
-    color: @fd-dark-yellow;
+.keyword.control.at-rule {
+
+    &.import, &.include, &.namespace, &.font-face {
+        color: @fd-dark-yellow;
+        .punctuation.definition.keyword {
+            color: @fd-dark-yellow;
+        }
+    }
+    &.mixin {
+        color : @fd-medium-green;
+        .punctuation.definition.keyword {
+            color: @fd-medium-green;
+        }
+    }
+    &.media {
+        color : @fd-green;
+        .punctuation.definition.keyword {
+            color: @fd-green;
+        }
+    }
+    &.charset  {
+        color : @fd-red;
+        .punctuation.definition.keyword {
+            color : @fd-red;
+        }
+    }
 }
+
+.meta.at-rule {
+    color : @fd-green;
+}
+
 .punctuation.definition.keyword {
     color: @fd-dark-yellow;
+}
+.keyword.other.important {
+    color : @fd-cyan;
 }
