@@ -2,6 +2,8 @@
 * improved regexp
 * added xml
 * js code cleaning and improvement
+* improved css, sass  at-rules
+* better phpdoc
 
 ## 0.5.0 (25.07.2016)
 * code cleaning
