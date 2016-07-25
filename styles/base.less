@@ -120,14 +120,24 @@ atom-text-editor .search-results .marker.current-result .region {
     }
 }
 
+.regexp {
+    color : @fd-pink;
+    &.constant {
+        color : @fd-red;
+    }
+    &.string {
+        color : @fd-pink;
+    }
+    &.keyword.control {
+        color : @fd-cyan;
+    }
+    &.punctuation.definition {
+        color : @fd-cyan;
+    }
+}
+
 .string {
     color: @fd-white;
-    &.regexp {
-        color: @cyan;
-        .source.ruby.embedded {
-            color: @orange;
-        }
-    }
     &.other.link {
         color: @red;
     }
