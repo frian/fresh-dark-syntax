@@ -9,7 +9,7 @@
     "php",
     "javascript",
     "twig",
-    "symfony"
+    "symfony",
     "html",
     "css",
     "less",
@@ -17,7 +17,7 @@
     "fresh",
     "dark",
     "syntax",
-    "theme",
+    "theme"
   ],
   "repository": "https://github.com/frian/fresh-dark-syntax",
   "license": "MIT",
