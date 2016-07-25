@@ -2,36 +2,40 @@
     &.source {
         color: @fd-yellow;
     }
-    &.definition.punctuation.parameters {
-        color: @fd-orange;
+    &.constant {
+        &.language {
+            color: @fd-light-cyan;
+        }
+        &.support {
+            color: @fd-light-cyan;
+            &.dom {
+                color: @fd-light-green;
+            }
+        }
     }
     &.entity.name.function {
         color: @fd-light-green;
     }
-    &.support.class {
+    &.function.parameter.variable {
         color: @fd-yellow;
     }
     &.method-call.arguments {
         color: @fd-cyan;
     }
-    &.constant {
-        &.language {
-            color: @fd-light-cyan;
-        }
-        &.character.escape {
-            color: red;
-        }
-    }
-    &.function.parameter.variable {
-        color: @fd-yellow;
-    }
     &.storage.type.var {
         color: @fd-dark-yellow;
     }
-    &.support.constant.dom {
-        color: @fd-light-green;
+    &.support.class {
+        color: @fd-cyan;
+    }
+    &.variable.other.object {
+        color: @fd-cyan;
     }
     &.variable.other.property {
         color: @fd-light-green;
+    }
+
+    &.punctuation.definition.parameters {
+        color: @fd-orange;
     }
 }
