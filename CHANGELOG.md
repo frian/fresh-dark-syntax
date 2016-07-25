@@ -1,3 +1,8 @@
+## 0.6.0 (25.07.2016)
+* improved regexp
+* added xml
+* js code cleaning and improvement
+
 ## 0.5.0 (25.07.2016)
 * code cleaning
 * created helper files for easy class grepping
