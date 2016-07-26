@@ -1,3 +1,6 @@
+## 0.6.1 (26.07.2016)
+* moved constant.language from js to base
+
 ## 0.6.0 (25.07.2016)
 * improved regexp
 * added xml
