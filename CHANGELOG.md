@@ -1,3 +1,6 @@
+## 0.6.2 (27.07.2016)
+* added css..entity.other.attribute-name.pseudo-class
+
 ## 0.6.1 (26.07.2016)
 * moved constant.language from js to base
 
