@@ -17,3 +17,21 @@ css, less, scss
 Twig
 
 ![twig](https://cloud.githubusercontent.com/assets/6443649/17086820/047ecd1a-51fc-11e6-9b0a-b2fb6b166828.png)
+
+## Install
+
+This repository is distributed with [apm][apm]. After [installing apm][install-apm], you can install `fresh-dark-syntax` with this command.
+
+```
+$ apm install fresh-dark-syntax
+```
+
+or in atom -> Preferences -> Install -> themes
+
+## Usage
+
+After installation, you can enable this theme in your [Atom theme settings](http://flight-manual.atom.io/using-atom/sections/atom-packages/#_atom_themes).
+
+## Changelog
+
+Check the [Changelog](CHANGELOG.md)
