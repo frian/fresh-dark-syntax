@@ -35,3 +35,7 @@ After installation, you can enable this theme in your [Atom theme settings](http
 ## Changelog
 
 Check the [Changelog](CHANGELOG.md)
+
+## License
+
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
