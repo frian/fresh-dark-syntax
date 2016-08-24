@@ -4,6 +4,7 @@
   "version": "0.6.4",
   "private": false,
   "description": "A dark and fresh syntax theme for web development",
+  "license": "MIT",
   "keywords": [
     "web",
     "php",
@@ -23,7 +24,6 @@
     "type": "git",
     "url": "git+https://github.com/frian/fresh-dark-syntax.git"
   },
-  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
