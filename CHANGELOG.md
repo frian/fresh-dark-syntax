@@ -1,3 +1,6 @@
+## 0.6.9 (24.08.2016)
+* maintenance (updated LICENSE)
+
 ## 0.6.8 (24.08.2016)
 * maintenance (updated package.json)
 
