@@ -1,3 +1,6 @@
+## 0.6.5 (07.08.2016)
+* maintenance (updated package.json)
+
 ## 0.6.4 (07.08.2016)
 * fixed css comment in scss
 
