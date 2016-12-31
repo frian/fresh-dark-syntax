@@ -1,3 +1,6 @@
+## 0.8 (31.12.2016)
+* added shell.less
+
 ## 0.7 (24.08.2016)
 * maintenance (updated README.md)
 
