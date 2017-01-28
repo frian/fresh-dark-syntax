@@ -1,57 +1,57 @@
-.at-rule {
-    &.import,
-    &.include,
-    &.media {
+.syntax--at-rule {
+    &.syntax--import,
+    &.syntax--include,
+    &.syntax--media {
         color: @fd-red;
     }
-    &.keyword.import {
+    &.syntax--keyword.syntax--import {
         color : @fd-dark-yellow;
     }
 }
 
-.entity {
-    &.name.tag {
+.syntax--entity {
+    &.syntax--name.syntax--tag {
         color: @fd-yellow;
     }
 }
 
-.keyword {
-    &.punctuation.definition {
+.syntax--keyword {
+    &.syntax--punctuation.syntax--definition {
         color: @fd-red;
     }
-    &.operator.logical {
+    &.syntax--operator.syntax--logical {
         color: @fd-cyan;
     }
-    &.control {
+    &.syntax--control {
         color: @fd-orange;
     }
 }
 
-.storage.type.function {
-    &.js,
-    &.php {
+.syntax--storage.syntax--type.syntax--function {
+    &.syntax--js,
+    &.syntax--php {
         color: @fd-medium-green;
     }
 }
 
-.punctuation {
-    &.terminator {
+.syntax--punctuation {
+    &.syntax--terminator {
         color: @fd-darker-orange;
     }
-    &.definition.tag {
-        color: @fd-yellow;
+    ;;    color: @fd-yellow;
+        &.syntax--definition.syntax--tag {
     }
-    &.definition.entity {
+    &.syntax--definition.syntax--entity {
         color: @fd-light-yellow;
     }
 }
 
-.meta {
-    &.brace {
+.syntax--meta {
+    &.syntax--brace {
         color: @fd-dark-yellow;
     }
-    &.tag.any.html,
-    &.tag.inline {
+    &.syntax--tag.syntax--any.syntax--html,
+    &.syntax--tag.syntax--inline {
         color: white;
     }
 }

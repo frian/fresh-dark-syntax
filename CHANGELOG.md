@@ -1,3 +1,6 @@
+## 0.9 (28.01.2017)
+* added shell.less
+
 ## 0.8 (31.12.2016)
 * added shell.less
 
