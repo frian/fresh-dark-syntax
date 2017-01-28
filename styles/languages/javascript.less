@@ -1,35 +1,35 @@
-.js {
-    &.source {
+.syntax--js {
+    &.syntax--source {
         color: @fd-yellow;
     }
-    &.constant {
-        &.support {
+    &.syntax--constant {
+        &.syntax--support {
             color: @fd-light-cyan;
-            &.dom {
+            &.syntax--dom {
                 color: @fd-light-green;
             }
         }
     }
-    &.function.parameter.variable {
+    &.syntax--function.syntax--parameter.syntax--variable {
         color: @fd-yellow;
     }
-    &.method-call.arguments {
+    &.syntax--method-call.syntax--arguments {
         color: @fd-cyan;
     }
-    &.storage.type.var {
+    &.syntax--storage.syntax--type.syntax--var {
         color: @fd-dark-yellow;
     }
-    &.support.class {
+    &.syntax--support.syntax--class {
         color: @fd-cyan;
     }
     // &.variable.other.object {
     //     color: @fd-cyan;
     // }
-    &.variable.other.property {
+    &.syntax--variable.syntax--other.syntax--property {
         color: @fd-light-green;
     }
 
-    &.punctuation.definition.parameters {
+    &.syntax--punctuation.syntax--definition.syntax--parameters {
         color: @fd-orange;
     }
 }
