@@ -1,3 +1,6 @@
+## 0.9.1 (29.01.2017)
+* fixed typo in global.less
+
 ## 0.9 (28.01.2017)
 * updated for 1.13 - removed shadow DOM styles
 
