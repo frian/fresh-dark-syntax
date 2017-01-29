@@ -1,4 +1,16 @@
+
 .syntax--css {
+    &.syntax--class {
+        .syntax--punctuation.syntax--definition.syntax--entity {
+            color: @fd-light-green;
+        }
+    }
+    &.syntax--id {
+        .syntax--punctuation.syntax--definition.syntax--entity {
+            color: @fd-orange;
+        }
+    }
+
     &.syntax--property-name {
         color: @fd-light-cyan;
     }
@@ -23,6 +35,7 @@
             color: @fd-pink;
         }
     }
+
 }
 
 .syntax--keyword.syntax--control.syntax--at-rule {
