@@ -1,3 +1,6 @@
+## 0.9.2 (29.01.2017)
+* fixes after upgrade to 1.13
+
 ## 0.9.1 (29.01.2017)
 * fixed typo in global.less
 
