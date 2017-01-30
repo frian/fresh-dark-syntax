@@ -20,7 +20,7 @@ Twig
 
 ## Install
 
-This repository is distributed with [apm][apm]. After [installing apm][install-apm], you can install `fresh-dark-syntax` with this command.
+This repository is distributed with [apm](https://atom.io/themes). After [installing apm](https://github.com/atom/apm#installing), you can install `fresh-dark-syntax` with this command.
 
 ```
 $ apm install fresh-dark-syntax

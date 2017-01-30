@@ -1,3 +1,6 @@
+## 0.9.3 (30.01.2017)
+* fixed apm links in README - minor css fixes
+
 ## 0.9.2 (29.01.2017)
 * fixes after upgrade to 1.13
 
