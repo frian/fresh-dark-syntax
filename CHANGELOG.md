@@ -1,7 +1,8 @@
 ## 0.9.4 (30.01.2017)
-* new screenshots in README
+* fixed version
 
 ## 0.9.3 (30.01.2017)
+* new screenshots in README
 * fixed apm links in README - minor css fixes
 
 ## 0.9.2 (29.01.2017)
