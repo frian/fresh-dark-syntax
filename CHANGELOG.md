@@ -1,3 +1,6 @@
+## 0.9.6 (07.02.2017)
+* fixed typo
+
 ## 0.9.5 (07.02.2017)
 * fixed missed style update
 
