@@ -1,3 +1,6 @@
+## 0.9.5 (07.02.2017)
+* fixed missed style update
+
 ## 0.9.4 (30.01.2017)
 * fixed version
 
