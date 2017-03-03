@@ -1,3 +1,6 @@
+## 0.9.7 (03.03.2017)
+* fixed bug in javascript braces
+
 ## 0.9.6 (07.02.2017)
 * fixed typo
 
