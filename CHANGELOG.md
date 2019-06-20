@@ -1,3 +1,6 @@
+## 1.0.0 (20.06.2019)
+* fixed meta tag in html
+
 ## 0.9.7 (03.03.2017)
 * fixed bug in javascript braces
 
